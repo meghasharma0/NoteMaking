@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #eeaeca , #94bbe9);
+    font-family: 'Poppins', sans-serif;
+}
+.grand-container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.container{
+    background: #302e2e;
+    min-width:400px;
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px 40px;
+    margin: auto;
+}
+h2{
+    color: #d8d8d8;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.inner-container{
+    width: 100%;
+}
+.title, .description{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+.title:focus, .description:focus{
+    outline: none;
+}
+.title::placeholder, .description::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+.description{
+    resize: none;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.saveBtn{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    background: #866272;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+}
+.someClass{
+    width: 100%;
+    margin-top: 30px;
+}
+.notes-container{
+    color: #fff;
+    width: 100%;
+}
+.notes-container > div > span{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+.notes-container > div > span:hover{
+    background: #000000;
+}
